@@ -23,3 +23,24 @@ Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
 */
 
 
+/*pseudo-codice:
+- associo una funzione all'id _numbercontainer
+
+
+
+
+
+
+*/
+
+let numberContainer = document.getElementById("_numbercontainer")
+console.log(numberContainer)
+
+
+for (let i = 1; i <= 100; i++) {
+
+
+
+
+    
+}
