@@ -51,6 +51,12 @@ for (let i = 1; i <= 100; i++) {
     // che cambia ad ogni ciclo.
     newEl.innerHTML = i;
     
+
+    newEl.style.width = "200px";
+    newEl.style.height = "200px";
+    newEl.style.display = "flex";
+    newEl.style.justifyContent = "center";
+    newEl.style.alignItems = "center";
     // console.log(newEl.innerHTML);
 
 // se i è divisibile per 3 =paragonato a 0 (deve dare resto 0)
@@ -58,6 +64,7 @@ for (let i = 1; i <= 100; i++) {
 
     if (i % 3 == 0 && i % 5 == 0){
     newEl.innerHTML ="FizzBuzz"
+    newEl.style.background = "red";
     console.log(newEl.innerHTML)
     
 
@@ -65,12 +72,13 @@ for (let i = 1; i <= 100; i++) {
     } else if (i % 3 == 0) {
         newEl.innerHTML = "Fizz";
         console.log(newEl.innerHTML)
-
+        newEl.style.background = "lightgreen";
 
 
     } else if (i % 5 == 0) {
         newEl.innerHTML ="Buzz"
         console.log(newEl.innerHTML)
+        newEl.style.background = "yellow";
 
 
    
@@ -78,7 +86,7 @@ for (let i = 1; i <= 100; i++) {
     }else{
     
         console.log(newEl.innerHTML)
-
+        newEl.style.background = "lightblue";
 
 
     }
